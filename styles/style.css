@@ -1,0 +1,137 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.habilidades{
+    display: block;
+    margin: 10px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #6962ea  ;
+    transition: 0.5s all;
+}
+
+#inscreva-se-btm{
+    border: 2px solid #6962ea;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscreva-se-btm:hover{
+    background-color: #6962ea;
+    color: white;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+}
+
+.titulo-sobre{
+    font-size: 50px;
+    line-height: 10px;
+    color: #6962ea;
+}
+
+span{
+    color: #6962ea;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+}
+
+img{
+    width: 580px;
+    margin-left: 30px;
+}
+
+#contact-icons{
+    width: 30px;
+    margin: 10px;
+}
+
+#icons{
+    width: 45px;
+    margin: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;;
+
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: #6962ea;
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+#texto{
+    margin-top: 20px;
+    height: 90px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+    flex-direction: column ;
+}
+
+div{
+    margin-right: 80px;
+}
