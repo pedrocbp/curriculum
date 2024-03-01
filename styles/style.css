@@ -21,7 +21,7 @@ header{
 
 li{
     display: inline-block;
-    margin: 20px;
+    margin: 20px;   
 }
 
 .habilidades{
@@ -84,7 +84,7 @@ img{
     margin-left: 30px;
 }
 
-#contact-icons{
+.contact-icons{
     width: 30px;
     margin: 10px;
 }

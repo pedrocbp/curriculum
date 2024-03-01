@@ -22,10 +22,37 @@
     }
 
     img{
-        display: none;
+        display: inline;
     }
 
     ul{
         text-align: center;
     }   
+
+    #contato-img{
+        display: none;
+    }
+
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    main div {
+        text-align: center;
+    }
+    
+    main div a {
+        margin: 10px; /* Espaçamento entre as imagens */
+    }
+
+    .project-img{
+        max-width: 100%; /* Define a largura máxima das imagens como 100% da largura do contêiner pai */
+        height: auto;
+    }
+
+    
+
 }
