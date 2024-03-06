@@ -1,6 +1,11 @@
 @media screen and (max-width: 760px){
     header{
         flex-direction: column;
+        justify-content: left;
+    }
+
+    #title {
+        display: none;
     }
 
     main{
@@ -23,6 +28,11 @@
 
     img{
         display: inline;
+        width: 300px;
+    }
+    
+    .icons {
+        width: 45px;
     }
 
     ul{
@@ -33,20 +43,7 @@
         display: none;
     }
 
-    main {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
     
-    main div {
-        text-align: center;
-    }
-    
-    main div a {
-        margin: 10px; /* Espaçamento entre as imagens */
-    }
 
     .project-img{
         max-width: 100%; /* Define a largura máxima das imagens como 100% da largura do contêiner pai */

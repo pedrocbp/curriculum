@@ -38,13 +38,13 @@ a:hover{
     transition: 0.5s all;
 }
 
-#inscreva-se-btm{
+#contato-btm{
     border: 2px solid #6962ea;
     padding: 10px;
     border-radius: 15px;
 }
 
-#inscreva-se-btm:hover{
+#contato-btm:hover{
     background-color: #6962ea;
     color: white;
 }
@@ -60,7 +60,7 @@ main{
 }
 
 h2{
-    font-size: 56px;
+    font-size: 44px;
     line-height: 10px;
 }
 
@@ -89,7 +89,7 @@ img{
     margin: 10px;
 }
 
-#icons{
+.icons{
     width: 45px;
     margin: 10px;
 }
@@ -135,3 +135,4 @@ input{
 div{
     margin-right: 80px;
 }
+
